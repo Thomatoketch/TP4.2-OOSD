@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638624208127121873
-    m_Hash: 2222637579
+      ticks: 638639108315585388
+    m_Hash: 3383550019
   m_LockFileStatus:
     m_FilePath: D:/OOSD/TP4.2 VR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638624208128223579
-    m_Hash: 179970556
+      ticks: 638639108316324237
+    m_Hash: 559263694
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -118,9 +118,11 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     compatible:
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     recommended: 2.4.4
     deprecated: []
   dependencies: []
@@ -297,7 +299,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.oculus
     version: 4.2.0
   - name: com.unity.xr.management
-    version: 4.4.0
+    version: 4.5.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -311,7 +313,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
   - name: com.unity.xr.openxr
-    version: 1.12.0
+    version: 1.12.1
   - name: com.unity.inputsystem
     version: 1.8.1
   - name: com.unity.modules.uielements
@@ -420,6 +422,7 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.0
     - 1.11.0
+    - 1.11.1
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
@@ -430,6 +433,7 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.0
     - 1.11.0
+    - 1.11.1
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -746,12 +750,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.9
   source: 1
-  resolvedPath: D:\OOSD\TP4.2 VR\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: D:\OOSD\TP4.2 VR\Library\PackageCache\com.unity.textmeshpro@3.0.9
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -760,7 +764,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -925,13 +929,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638515173480000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -1368,12 +1372,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.xr.management@4.4.0
+- packageId: com.unity.xr.management@4.5.0
   testable: 0
   isDirectDependency: 1
-  version: 4.4.0
+  version: 4.5.0
   source: 1
-  resolvedPath: D:\OOSD\TP4.2 VR\Library\PackageCache\com.unity.xr.management@4.4.0
+  resolvedPath: D:\OOSD\TP4.2 VR\Library\PackageCache\com.unity.xr.management@4.5.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1490,13 +1494,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638224209960000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
+  datePublishedTicks: 638560264920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-    revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
+    revision: fa86b200cd8cd1b75a57534d44d41cc7b6b7f58d
     path: 
   unityLifecycle:
     version: 4.4.0
@@ -1507,12 +1511,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.xr.openxr@1.12.0
+- packageId: com.unity.xr.openxr@1.12.1
   testable: 0
   isDirectDependency: 1
-  version: 1.12.0
+  version: 1.12.1
   source: 1
-  resolvedPath: D:\OOSD\TP4.2 VR\Library\PackageCache\com.unity.xr.openxr@1.12.0
+  resolvedPath: D:\OOSD\TP4.2 VR\Library\PackageCache\com.unity.xr.openxr@1.12.1
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -1521,7 +1525,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: OpenXR is an open, royalty-free standard developed by Khronos that
     aims to simplify AR/VR development by allowing developers to target a wide range
     of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
@@ -1595,7 +1599,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
-    version: 4.4.0
+    version: 4.5.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
@@ -1615,13 +1619,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638586670010000000
+  datePublishedTicks: 638621648414390000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.12/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: 3a1c80d75855c479e3f4e825a51d4317dc7430d0
+    revision: 80d54b74e54bc9121b87503e8e4840bfbcdb50f7
     path: 
   unityLifecycle:
     version: 1.12.0
@@ -3717,9 +3721,11 @@ m_ResolvedPackages:
     - 2.1.8
     - 2.1.9
     - 2.1.10
+    - 2.1.11
     compatible:
     - 2.1.10
-    recommended: 2.1.10
+    - 2.1.11
+    recommended: 2.1.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -4766,6 +4772,7 @@ m_ResolvedPackages:
     - 3.2.3
     - 3.3.0
     - 3.4.0
+    - 3.4.1
     - 4.0.0
     - 4.1.1
     - 4.1.2
@@ -4773,9 +4780,11 @@ m_ResolvedPackages:
     - 4.2.0-exp-env-depth.2
     - 4.2.0
     - 4.3.0-pre.1
+    - 4.3.0
     compatible:
     - 4.2.0
     - 4.3.0-pre.1
+    - 4.3.0
     recommended: 4.2.0
     deprecated: []
   dependencies:
@@ -4783,7 +4792,7 @@ m_ResolvedPackages:
     version: 4.4.0
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.4.0
+    version: 4.5.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
